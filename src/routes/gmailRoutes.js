@@ -5,5 +5,7 @@ const gmailController = require('../controllers/gmailController'); // Assuming y
 // Define your Gmail related routes here
 router.get('/inbox', gmailController.getInbox);
 router.get('/sent', gmailController.getSentItems);
+router.get('/email/:id', gmailController.getMail);
+router.get('/emails', gmailController.getEmailsByPage);
 
 module.exports = router;
