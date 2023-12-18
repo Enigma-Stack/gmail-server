@@ -1,6 +1,6 @@
 // oauthClient.js
 const { google } = require('googleapis');
-const config = require('./config');
+const config = require('../config');
 
 const oauth2Client = new google.auth.OAuth2(
   config.clientId,
