@@ -1,4 +1,4 @@
-const oauth2Client = require('../oauthClient');
+const oauth2Client = require('../middlewares/oauthClient');
 const logger = require('../utils/logger');
 const config = require('../config');
 
